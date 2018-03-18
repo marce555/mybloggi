@@ -1,0 +1,20 @@
+<html>
+    <head>
+        <title>Django site</title>
+    </head>
+    <body>
+        <div>
+            <h1><a href="">Applyou</a></h1>
+        </div>
+
+        {% for post in posts %}
+            <div>
+                <p>publié: {{ post.published_date }}</p>
+                <h1><a href="">{{ post.title }}</a></h1>
+                <p>{{ post.text|linebreaksbr }}</p>
+            
+            </div>
+        {% endfor %}
+         
+    </body>
+</html>
