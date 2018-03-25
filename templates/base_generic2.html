@@ -1,0 +1,58 @@
+{% load staticfiles %}
+   
+<link href="//netdna.bootstrapcdn.com/bootstrap/3.0.3/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+<script src="//netdna.bootstrapcdn.com/bootstrap/3.0.3/js/bootstrap.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<!------ Include the above in your HEAD tag ---------->
+
+<!--
+    youtube:  https://www.youtube.com/channel/UCqlv40k1N0L9nsSrzL1OWwg/videos
+    site:     http://www.templateindirr.com
+-->
+
+<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"> 
+
+<div class="login">
+   <div class="container">
+       <div class="col-lg-6 col-lg-offset-3">
+           
+            <div class="inner-form">
+            
+                 <h1>Contact Us</h1> 
+            
+                   <form role="form">
+                       <div class="row">
+                              
+                            <div class="col-lg-12">
+                                <label>Utilisateur</label>
+                                <div class="form-group">
+                                    <td>{{ form.username }}</td>
+                                </div>
+                            </div>
+                            
+                            <div class="col-lg-12">
+                                <label>Password</label>
+                                <div class="form-group">
+                                    <td>{{ form.password }}</td>
+                                </div>
+                            </div>
+                            
+
+
+
+
+
+                            <div class="col-lg-12">
+                                <button type="submit" class="btn btn-lg btn-success btn-block">
+                                    <span>LOGIN</span>
+                                </button>
+                            </div>
+                                
+                         </div>
+                     </form>
+            
+                </div> <!-- inner-form -->
+            
+        </div>   
+    </div>   
+</div> 

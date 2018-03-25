@@ -37,8 +37,12 @@ body {
     margin-left: 40px;
 }
 
-h1, h2, h3, h4 {
+h1, h2, h3 {
     font-family: 'PT Sans', sans-serif;
+}
+
+h4 {
+    font-family: 'PT Sans', sans-serif; text-align: center;
 }
 
 .date {
